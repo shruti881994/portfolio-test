@@ -18,9 +18,9 @@ function TextChange(){
             if (endvalue >= text[index].length)
                 setIsForward(false);
             }
-            if(endvalue < 2.1){
+            if (endvalue <= 0){
                 setIsForward(true);
-                setIndex((prev)=>prev&text.length)
+               setIndex((prev) => (prev + 1) % text.length)
             }
         }, 50);
         return ()=>clearInterval(intervalID)
