@@ -9,7 +9,7 @@ function About(){
             <div>
                 <h2 className="text-2xl md:text-4xl font-bold">About</h2>
             <div className="md:flex flex-wrap flex-col md:flex-row items-center">
-                <img className="md:h-80 w-[400px]" src={aboutImg} alt="about image"/>
+                <img className="md:h-80 w-[400px]" src={aboutImg} alt="about us banner"/>
                 <ul>
                     <div className="flex gap-3 py-4">
                         <FontAwesomeIcon  icon={faArrowAltCircleRight} className="text-xl text-white-500 pt-5"/>
