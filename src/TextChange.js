@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-
+const text = [ "Hi, I am Shruti", "I am a React Developer", "Welcome to my portfolio" ];
 function TextChange(){
-    const text = [ "Hi, I am Shruti", "I am a React Developer", "Welcome to my portfolio" ];
     const [currenttext, setCurrenttext] = useState("");
     const [endvalue, setEndvalue] = useState(true);
     const [isForward, setIsForward] = useState(true);
@@ -16,7 +15,7 @@ function TextChange(){
             else{
                 setEndvalue((prev)=>prev-1)
             }
-            if(endvalue > text[index].length+10){
+            if (endvalue >= text[index].length)
                 setIsForward(false);
             }
             if(endvalue < 2.1){
