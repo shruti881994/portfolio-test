@@ -1,5 +1,4 @@
 import { faFacebook, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faVoicemail } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Footer(){
