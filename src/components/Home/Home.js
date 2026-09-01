@@ -16,7 +16,7 @@ function Home(){
             </button>
             </div>
             <div className="w-2/5 flex w-100% justify-between items-start">
-                <img src={avtarImg} className="w-[400px] h-auto" alt="home banner image" />
+                <img src={avtarImg} className="w-[400px] h-auto" alt="home page hero banner" />
             </div>
         </div>
     )
