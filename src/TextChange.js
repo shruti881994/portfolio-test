@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-const text = [ "Hi, I am Shruti", "I am a React Developer", "Welcome to my portfolio" ];
+const text = [ "Hi, I am Shruti", "I am a React Developer", "Welcome to my portfolio"];
 function TextChange(){
     const [currenttext, setCurrenttext] = useState("");
     const [endvalue, setEndvalue] = useState(true);
